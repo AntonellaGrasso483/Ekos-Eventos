@@ -1,0 +1,13 @@
+
+@mixin parrafos() {
+    padding: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+@mixin body() {
+    @extend %fonts;
+    background-color: $color-body;
+}

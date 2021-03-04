@@ -1,0 +1,34 @@
+/* Generales */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: #FAE3DD;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+/* Sucursales */
+
+.btn__custom {
+    background-color: #f7cec4;
+}
+
+.btn__custom2 {
+    background-color: rgb(182, 179, 179);
+}
+
+/* Contacto */
+
+.body__section__contenedor__formulario__div {
+    border: 2px;
+    border-color: #f4a460;
+    border-style: dotted;
+}
+

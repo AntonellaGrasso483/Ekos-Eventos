@@ -1,0 +1,27 @@
+@import "color.scss";
+@import "extend.scss";
+@import "mixins.scss";
+
+/* Generales */
+body {
+    @include body
+}
+
+p {
+    @include parrafos
+}
+
+/* Sucursales */
+
+.btn__custom {
+    background-color: $color-btn;
+}
+
+.btn__custom2 {
+    background-color: $color-btn2;
+}
+
+/* Contacto */
+.body__section__contenedor__formulario__div {
+    @extend %border;
+}
